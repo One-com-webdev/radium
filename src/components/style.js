@@ -50,7 +50,7 @@ const Style = React.createClass({
       } else if (typeof styles[selector] === 'object') {
         const completeSelector = scopeSelector
           ? selector
-            .split(', ')
+            .split(',')
             .map(part => scopeSelector + part)
             .join(',')
           : selector;
