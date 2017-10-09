@@ -1,6 +1,6 @@
 {
   "name": "radium-one.com",
-  "version": "0.18.1-patch3",
+  "version": "0.19.0-patch0",
   "description": "A set of tools to manage inline styles on React elements",
   "main": "lib/index.js",
   "repository": {
