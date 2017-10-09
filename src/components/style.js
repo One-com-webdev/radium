@@ -2,9 +2,11 @@
 
 import cssRuleSetToString from '../css-rule-set-to-string';
 
-import React, {PropTypes} from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
+import createClass from 'create-react-class';
 
-const Style = React.createClass({
+const Style = createClass({
   propTypes: {
     radiumConfig: PropTypes.object,
     rules: PropTypes.object,
