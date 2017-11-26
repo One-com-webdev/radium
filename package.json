@@ -1,6 +1,6 @@
 {
   "name": "@one.com/radium-one.com",
-  "version": "0.19.6",
+  "version": "0.19.7",
   "description": "A set of tools to manage inline styles on React elements",
   "main": "lib/index.js",
   "repository": {
