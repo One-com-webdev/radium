@@ -6,11 +6,18 @@ import mapObject from './map-object';
 import {getPrefixedStyle} from './prefixer';
 
 function createMarkupForStyles(style: Object): string {
-  return Object.keys(style)
-    .map(property => {
-      return property + ': ' + style[property] + ';';
-    })
-    .join('\n');
+  let styles = '';
+  Object.keys(style).forEach(function(property) {
+    const value = style[property];
+    if (Array.isArray(value)) {
+      value.forEach(function(vendorPrefixedValue) {
+        styles += property + ': ' + vendorPrefixedValue + ';\n';
+      });
+    } else {
+      styles += property + ': ' + value + ';\n';
+    }
+  });
+  return styles.trim();
 }
 
 export default function cssRuleSetToString(

@@ -1,14 +1,14 @@
 {
-  "name": "radium",
+  "name": "@one.com/radium-one.com",
   "version": "0.19.6",
   "description": "A set of tools to manage inline styles on React elements",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/formidablelabs/radium.git"
+    "url": "https://github.com/One-com/radium.git"
   },
-  "homepage": "https://github.com/formidablelabs/radium",
-  "bugs": "https://github.com/formidablelabs/radium/issues",
+  "homepage": "https://github.com/One-com/radium",
+  "bugs": "https://github.com/One-com/radium/issues",
   "directories": {
     "example": "examples"
   },
